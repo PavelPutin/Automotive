@@ -1,0 +1,18 @@
+.footer {
+  background: #130e27;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 15px;
+}
+
+.footer__wrap p {
+  color: #fff;
+}
+
+.author {
+  color: #c62314;
+}

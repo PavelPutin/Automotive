@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  min-width: 320px;
+}
+
+.wrap {
+  max-width: 1012px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+}
+
+.section__title {
+  font-size: 50px;
+  line-height: 80px;
+  letter-spacing: -1px;
+  color: #130e27;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  padding: 40px 0;
+  font-weight: 700;
+}
+
+.double-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}

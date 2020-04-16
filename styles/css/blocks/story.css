@@ -1,0 +1,20 @@
+.story {
+  background: #130e27;
+  padding: 33px 0;
+}
+
+.story__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story p {
+  color: #fff;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  flex-basis: 59%;
+}
+
+.story__button {
+  flex-basis: calc(100% - 59% - 120px);
+}

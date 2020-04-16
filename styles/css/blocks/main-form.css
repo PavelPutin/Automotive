@@ -1,0 +1,7 @@
+.main__form {
+  display: none;
+  background: #fff;
+  flex-basis: calc(100% - 52% - 110px);
+  box-sizing: border-box;
+  padding: 28px 25px;
+}

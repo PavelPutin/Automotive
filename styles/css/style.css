@@ -1,0 +1,22 @@
+@import url('core.css');
+@import url('blocks/header.css');
+@import url('blocks/button.css');
+@import url('blocks/services.css');
+@import url('blocks/story.css');
+@import url('blocks/pricing.css');
+@import url('blocks/testimonial.css');
+@import url('blocks/gallery.css');
+@import url('blocks/footer.css');
+@import url('blocks/main-form.css');
+@import url('media.css');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700&subset=cyrillic');
+@font-face {
+  font-family: "couture-bld";
+  src: url("../fonts/couture/couture-bld.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: 700; 
+}
+/* font-family: 'Montserrat', sans-serif; */
+

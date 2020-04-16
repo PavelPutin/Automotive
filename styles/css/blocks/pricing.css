@@ -1,0 +1,93 @@
+.pricing {
+  background: #efefef;
+  margin-bottom: 100px;
+}
+
+.pricing__title {
+  text-align: center;
+}
+
+.pricing__cardsArea {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+
+.pricing__card {
+  position: relative;
+  background: #fff;
+  flex-basis: 31%;
+  text-align: center;
+  padding: 35px 58px 35px 58px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: 0.25s all ease;
+}
+
+.pricing__card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 5px 32px 6px #130e27;
+}
+
+.pricing__card-popular:hover {
+  box-shadow: 0px 5px 32px 6px #c62314;
+}
+
+.pricing__pack {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.44px;
+  color: #161616;
+}
+
+.pricing__cost {
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: -1.2px;
+  color: #c62314;
+}
+
+.pricing__list {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.pricing__list li {
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #161616;
+  text-transform: capitalize;
+}
+
+.pricing__button,
+.pricing__button-dark {
+  display: block;
+  padding: 16px 0;
+}
+
+.pricing__button-dark {
+  background: #130e27;
+  border-color: #130e27;
+}
+
+.pricing__button-dark:hover {
+  color: #130e27;
+}
+
+.pricing__card-popular::before {
+  content: "Popular";
+  font-size: 16px;
+  line-height: 150px;
+  letter-spacing: -0.32px;
+  text-align: center;
+  color: #1f1f1f;
+  position: absolute;
+  left: -75px;
+  top: -35px;
+  background: #c62314;
+  width: 180px;
+  height: 100px;
+
+  transform: rotate(-45deg);
+}
